@@ -1,12 +1,16 @@
 {
   "name": "leaflet_2",
   "version": "1.0.0",
-  "description": "",
+  "description": "Leaflet 2.0 + next.js",
   "main": "index.js",
   "scripts": {
     "dev": "next",
     "build": "next build",
     "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gudvinga/nextjs-leaflet_2.0.git"
   },
   "keywords": [],
   "author": "",
@@ -14,9 +18,11 @@
   "dependencies": {
     "@zeit/next-css": "^1.0.1",
     "leaflet": "^1.3.4",
+    "leaflet.markercluster": "^1.4.1",
     "next": "^7.0.2",
     "react": "^16.6.1",
     "react-dom": "^16.6.1",
-    "react-leaflet": "^2.1.2"
+    "react-leaflet": "^2.1.2",
+    "react-leaflet-markercluster": "^2.0.0-rc3"
   }
 }
