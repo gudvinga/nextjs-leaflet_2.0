@@ -1,6 +1,7 @@
 import React from 'react';
 import { Map, Marker, Popup, TileLayer } from 'react-leaflet';
 import MarkerClusterGroup from 'react-leaflet-markercluster';
+import PopupWithRedux from '../popup';
 
 const position = [53.8999964, 27.5666644];
 
@@ -13,9 +14,7 @@ export default () => (
       />
       <Marker position={position}>
         <Popup>
-          A pretty CSS3 popup.
-          <br />
-          Easily customizable.
+          <PopupWithRedux />
         </Popup>
       </Marker>
       <MarkerClusterGroup>
